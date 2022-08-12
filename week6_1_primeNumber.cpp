@@ -9,8 +9,7 @@ bool isPrime(int num)
         if (num % i == 0) // check how many numbers can be num's factors.
             coutDiv++;
     }
-
-    if (coutDiv == 2)
+    if (coutDiv == 2) // prime number only has 2 factors.
         return true;
     else
         return false;
